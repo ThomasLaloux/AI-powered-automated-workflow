@@ -1,6 +1,6 @@
 # Production-grade-AI-powered-automated-workflow
 
-This first multi-agentic project has a commercial purpose. Hence, the exact context and implementation won't be disclosed.
+This multi-agentic project has a commercial purpose. Hence, the exact context and implementation won't be disclosed.
 
 Technically speaking, the nature of this project and its constraints led to the following architectural decisions:
 - a balance between tools used: n8n for the orchestration layer, python (through http nodes) for the multi-agents layer through an iterative secondary workflow
