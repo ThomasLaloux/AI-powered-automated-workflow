@@ -8,4 +8,4 @@ Technically, the nature of this project and its constraints led to the following
 - since agents have been included in the process, two 'human in the loop' nodes have been foreseen for control and risk management, with feedback forms and iterative corrective loops
 - LLM component: local (e.g. Mistral on Ollama) or cloud solution (Mistral, Anthropic, OpenAI mainly)
 - Docker containers used for portability; they include: n8n, agent, postgres, qdrant
-- Next step: thinking about a UI setup, if relevant
+- Next step: thinking about a UI setup, if relevant for the client
