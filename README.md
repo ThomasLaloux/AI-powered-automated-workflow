@@ -1,4 +1,4 @@
-# Production-grade-AI-powered-automated-workflow
+# AI-powered-automated-workflow
 
 This multi-agentic project has a commercial purpose. Hence, the exact context and implementation won't be disclosed.
 
