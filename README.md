@@ -4,7 +4,7 @@ This multi-agentic project is private. Hence, the exact context and implementati
 
 Technically, the business context and related constraints led to the following architectural decisions:
 - a balance between tools used: n8n for the orchestration layer, python (through http nodes) for the multi-agents layer through an iterative secondary workflow
-- four agents types: planner, writer, validator, assembler; RAG has been foreseen to extract key information from historical data stored on local drive
-- since agents have been included in the process, two 'human in the loop' nodes have been foreseen for control and risk management, with feedback forms and iterative corrective loops
+- four agents types: planner, developer, validator, assembler; RAG has been foreseen to extract key information from historical data stored on local drive
+- since agents have been included and can have high impact on business, two 'human in the loop' nodes have been foreseen for control and risk management, with feedback forms and iterative corrective loops
 - LLM component: local (e.g. Mistral on Ollama) or cloud solution (Mistral, Anthropic, OpenAI mainly)
 - Docker containers used for portability; they include: n8n, agent, postgres, qdrant
