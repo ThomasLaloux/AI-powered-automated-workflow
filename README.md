@@ -6,10 +6,10 @@ This multi-agentic project is private. Hence, the exact context and implementati
 ## Business constraints
 - Flexibility of use between LLMs/SLMs
 - Keeping historical data local
-- Data confidentiality
 - Generating word and pdf documents
 - Human in the loop: intermediary status and final validation
 - Sending the final document by email to the client, after second HITL validation
+- Data confidentiality
 
 ## Architecture
 - A balance between tools: n8n for the orchestration layer, python (through http nodes) for the multi-agents layer through an iterative secondary workflow
