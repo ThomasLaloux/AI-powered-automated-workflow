@@ -26,6 +26,8 @@
 - Both cloud LLM (Mistral, Anthropic, OpenAI mainly) and self-hosted SLM (e.g. Mistral on Ollama) can be used, depending on the client's preferences
 - Docker containers used for portability while running the workflow in a production environment; containers: n8n, agent, postgres, qdrant
 
+<img width="1523" height="623" alt="AI_workflow_automation_v1 5" src="https://github.com/user-attachments/assets/e3b1c36a-17db-418b-a6c5-bd7ac0b84e96" />
+
 ## Governance / Risk Management
 - Two 'human in the loop' nodes are implemented for control and risk management right after both agentic parts, with feedback forms and iterative corrective loops
 - Activable SLMs to fully host the process and further ensure data confidentiality (e.g. for regulated sectors)
@@ -40,5 +42,3 @@
 - An automated process running on self-hosted n8n (a user interface could also be proposed in v2)
 - Time savings: 20-40h a month in operational processes, more time for other files, clients or strategic actions.
 - 24-48k EUR a year at a 100 EUR hourly rate + reduced number of errors and avoided opportunity costs.
-
-<img width="1523" height="623" alt="AI_workflow_automation_v1 5" src="https://github.com/user-attachments/assets/e3b1c36a-17db-418b-a6c5-bd7ac0b84e96" />
