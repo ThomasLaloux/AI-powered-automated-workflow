@@ -16,7 +16,7 @@
 - Output: structured Word document (filled in section by section) → validated → PDF created → delivered to the client.
 
 ## Tech stack
-- Python · n8n · Qdrant · PostgreSQL · Docker · Ollama · LLM APIs (Anthropic/OpenAI/Mistral)
+- Python · n8n · Qdrant · PostgreSQL · Docker · Ollama · SLMs (Qwen, Mistral) · LLM APIs (Anthropic/OpenAI/Mistral)
 
 ## Architecture
 - A balance between tools: n8n for the orchestration layer, python (through http nodes) for the multi-agents layer through an iterative secondary workflow
