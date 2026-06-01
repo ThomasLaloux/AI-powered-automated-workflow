@@ -25,6 +25,7 @@
 - RAG is used to extract key information from historical data stored on local drive
 - Both cloud LLM (Mistral, Anthropic, OpenAI mainly) and self-hosted SLM (e.g. Mistral on Ollama) can be used, depending on the client's preferences
 - Docker containers used for portability while running the workflow in a production environment; containers: n8n, agent, postgres, qdrant
+- n8n workflow (green box: python-based multi-agents layer, yellow box: human in the loop form + iterations
 
 <img width="1523" height="623" alt="AI_workflow_automation_v1 5" src="https://github.com/user-attachments/assets/e3b1c36a-17db-418b-a6c5-bd7ac0b84e96" />
 
@@ -32,6 +33,7 @@
 - Two 'human in the loop' nodes are implemented for control and risk management right after both agentic parts, with feedback forms and iterative corrective loops
 - Activable SLMs to fully host the process and further ensure data confidentiality (e.g. for regulated sectors)
 - Container isolation
+- Workflow summary, reject reasons, intermediary drafts, internal states (feedback, plan, progress) stored locally for audit purposes 
 
 ## How to run
 - Required API keys (Anthropic / OpenAI / Mistral) and local Ollama
