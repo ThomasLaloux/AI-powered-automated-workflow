@@ -18,5 +18,5 @@
 
 ## Outcomes
 - An automated process running on self-hosted n8n (a user interface could also be proposed in v2)
-- Time savings: 20-40h a month in operational processes, more time for managing other files or for strategic thinking/actions.
-- 24-48k EUR a year at a 100 EUR hourly rate, without considerint the reduced number of errors and opportunity costs.
+- Time savings: 20-40h a month in operational processes, more time for other files, clients or strategic actions.
+- 24-48k EUR a year at a 100 EUR hourly rate + reduced number of errors and avoided opportunity costs.
