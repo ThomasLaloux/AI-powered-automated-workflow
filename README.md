@@ -11,19 +11,32 @@
 - Sending the final document by email to the client, after second HITL validation
 - Data confidentiality
 
+## Inputs/Output
+- Inputs: historical document database, new client-specific data and context
+- Output: structured Word document (filled in section by section) → validated → PDF created → delivered to the client.
+
 ## Tech stack
 - Python · n8n · Qdrant · PostgreSQL · Docker · Ollama · LLM APIs (Anthropic/OpenAI/Mistral)
 
 ## Architecture
 - A balance between tools: n8n for the orchestration layer, python (through http nodes) for the multi-agents layer through an iterative secondary workflow
+  n8n handles orchestration to keep the agentic logic isolated and swappable; Python via HTTP nodes captures the agent logic, as well as for code clarity and testability
 - Four agents types for text generation: planner, developer, validator, assembler
 - RAG is used to extract key information from historical data stored on local drive
-- Two 'human in the loop' nodes are implemented for control and risk management right after both agentic parts, with feedback forms and iterative corrective loops
-- Both cloud LLM (Mistral, Anthropic, OpenAI mainly) and self-hosted SLM (e.g. Mistral on Ollama) can be used
+- Both cloud LLM (Mistral, Anthropic, OpenAI mainly) and self-hosted SLM (e.g. Mistral on Ollama) can be used, depending on the client's preferences
 - Docker containers used for portability while running the workflow in a production environment; containers: n8n, agent, postgres, qdrant
+
+## Governance / Risk Management
+- Two 'human in the loop' nodes are implemented for control and risk management right after both agentic parts, with feedback forms and iterative corrective loops
+- Activable SLMs to fully host the process and further ensure data confidentiality (e.g. for regulated sectors)
+- Container isolation
+
+## How to run
+- Required API keys (Anthropic / OpenAI / Mistral) and local Ollama
+- Required documents folder mounted at /data.
+- Run with docker-compose up
 
 ## Outcomes
 - An automated process running on self-hosted n8n (a user interface could also be proposed in v2)
 - Time savings: 20-40h a month in operational processes, more time for other files, clients or strategic actions.
 - 24-48k EUR a year at a 100 EUR hourly rate + reduced number of errors and avoided opportunity costs.
-
