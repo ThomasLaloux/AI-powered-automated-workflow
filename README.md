@@ -1,7 +1,4 @@
-# AI-powered-automated-workflow
-
-## Context 
-This multi-agentic project is private. Hence, the exact context and implementation won't be disclosed.
+# AI-powered document generation
 
 ## Business constraints
 - Flexibility of use between LLMs/SLMs
