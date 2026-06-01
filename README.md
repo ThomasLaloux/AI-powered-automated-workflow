@@ -40,3 +40,5 @@
 - An automated process running on self-hosted n8n (a user interface could also be proposed in v2)
 - Time savings: 20-40h a month in operational processes, more time for other files, clients or strategic actions.
 - 24-48k EUR a year at a 100 EUR hourly rate + reduced number of errors and avoided opportunity costs.
+
+<img width="1523" height="623" alt="AI_workflow_automation_v1 5" src="https://github.com/user-attachments/assets/e3b1c36a-17db-418b-a6c5-bd7ac0b84e96" />
