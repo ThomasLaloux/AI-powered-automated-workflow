@@ -1,4 +1,4 @@
-# AI-powered document generation
+# AI-powered document generation under constraints
 
 ## Business constraints
 - Flexibility of use between LLMs/SLMs
