@@ -1,6 +1,6 @@
 # AI-powered document generation under constraints
 
-## Context and business constraints
+## Context
 - Multi-agent system for automated drafting of professional business documents under formatting and data-confidentiality constraints. Replaces a manual process consuming 20–40 hours per month.
 
 ## Business constraints
