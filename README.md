@@ -27,7 +27,7 @@
 - Docker containers used for portability while running the workflow in a production environment; containers: n8n, agent, postgres, qdrant
 - n8n workflow (green box: multi-agents layer, yellow box: human in the loop form + iterations):
 
-<img width="1523" height="623" alt="AI_workflow_automation_v1 5" src="https://github.com/user-attachments/assets/e3b1c36a-17db-418b-a6c5-bd7ac0b84e96" />
+<img width="1571" height="628" alt="AI_workflow_automation_v1 5" src="https://github.com/user-attachments/assets/75012e9a-823f-42a9-97ba-9fd0be184670" />
 
 ## Governance / Risk Management
 - Two 'human in the loop' nodes are implemented for control and risk management right after both agentic parts, with feedback forms and iterative corrective loops
