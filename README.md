@@ -21,7 +21,7 @@
 ## Architecture
 - A balance between tools: n8n for the orchestration layer, python (through http nodes) for the multi-agents layer through an iterative secondary workflow
   n8n handles orchestration to keep the agentic logic isolated and swappable; Python via HTTP nodes captures the agent logic, as well as for code clarity and testability
-- Four specialized agents in charge of text generation in multi-agentic phase A: planner => writer => validator (scoring) => assembler
+- Four specialized agents in charge of text generation in multi-agentic phase A: planner → writer → validator (scoring) → assembler
 - RAG is used to extract key information from historical data stored on local drive
 - Both cloud LLM (Mistral, Anthropic, OpenAI mainly) and self-hosted SLM (e.g. Mistral on Ollama) can be used, depending on the client's preferences
 - Docker containers used for portability while running the workflow in a production environment; containers: n8n, agent, postgres, qdrant
