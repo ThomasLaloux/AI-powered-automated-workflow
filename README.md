@@ -1,7 +1,7 @@
 # AI-powered document generation under constraints
 
 ## Context
-- Multi-agent system for automated drafting of professional business documents under formatting and data-confidentiality constraints. Replaces a manual process consuming 20–40 hours per month.
+- Multi-agent system for automated drafting of industrial documents under formatting and data-confidentiality constraints. Replaces a manual process consuming 20–40 hours per month.
 
 ## Business constraints
 - Flexibility of use between LLMs/SLMs
